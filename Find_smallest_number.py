@@ -21,7 +21,7 @@ def smallestNumber(numberList):
     return smallest
     
 numberList = [9,3,2,4,6,6,7,8,100,101,99]
-print(smallestNumber(numberList))
+smallestNumber(numberList)
 
 # Optimized solution. 
 # Time Complexity - O(N)
@@ -41,4 +41,4 @@ def smallestNumber(numberList):
     return smallest
     
 numberList = [9,3,2,4,6,6,7,8,100,101,99]
-print(smallestNumber(numberList))
+smallestNumber(numberList)
