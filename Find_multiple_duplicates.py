@@ -1,5 +1,5 @@
 # Time complexity - O(N + M)
-# Space complexity - O(1)
+# Space complexity - O(N)
 
 def findMultipleDuplicates(array):
     countTable = {}
