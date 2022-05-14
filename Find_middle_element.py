@@ -2,6 +2,12 @@
 # Time complexity - O(N)
 # Space complexity - O(1)
 
+# Singly Linked List class definition
+# class SLL:
+#    def __init__(self, value):
+#        self.value = value
+#        self.next = next
+
 def findMiddle(sllObject):
     current1 = sllObject
     current2 = sllObject
