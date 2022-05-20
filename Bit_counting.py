@@ -13,7 +13,6 @@ def bitCounting(num):
     for i in temp_list:
         binary = i % 2
         binary_list.append(binary)
-    binary_list.reverse()
     for i in binary_list:
         if i == 1:
             on_bits += 1
