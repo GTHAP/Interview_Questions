@@ -15,3 +15,14 @@ class Stack:
     def printstack(self):
         for i in self.stack:
             print(i)
+            
+Value = Stack()
+Value.push(10)
+Value.push(2)
+Value.push(8)
+Value.push(5)
+Value.printstack()
+Value.pop()
+Value.printstack()
+Value.max()
+Value.printstack()
